@@ -20,7 +20,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-2"></div>
-                    <div class="col-md-8"><font color="#000"><center><strong><h1>BUY-ME</h1></strong><h3>EMPRESAS PEQUEÑAS</h3></center></font></div>
+                    <div class="col-md-8"><font color="#000"><center><strong><h1></h1></strong><h3>LOG IN</h3></center></font></div>
                     <div class="col-md-2"></div>
                 </div>
                 </div>
@@ -32,8 +32,7 @@
             ob_start();
                 if(isset($_SESSION['sesion_exito']))
                 {
-                    //if($_SESSION['sesion_exito']==0) Como dije en el video, esto no es estrictamente necesario
-                    // {echo "inicie sesion por favor";} Ya que si lo dejamos, siempre que accedemos a index arroja error.
+                    
                     if($_SESSION['sesion_exito']==2)
                         {echo "Los campos SON OBLIGATORIOS";}
                     if($_SESSION['sesion_exito']==3)
@@ -52,16 +51,16 @@
             <?php
                 if($_SESSION['sesion_exito']==4)
                     {echo "GRACIAS POR USAR NUESTROS SERVICIOS";}
-                $_SESSION['sesion_exito']=0; //Despues de confirmar el error, igualo lo variable a 0
+                $_SESSION['sesion_exito']=0; 
             ?>
         </b>
         </p>
     </h3>
-                <!--Inicio del formulario de Iniciar sesion-->
+               
                 <div class="row">
                     <div class="col-md-4"></div>
                     <div class="col-md-4">
-                        <div class="well"> <!--hace un sombreado a la columna-->
+                        <div class="well"> 
                             <center>
                                 <h3><strong>INICIAR SESION</strong></h3><br>
                                 <img src="usuario.png" class="img-circle" width="150" height="150">
