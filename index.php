@@ -89,6 +89,6 @@
                     <div class="col-md-4"></div>
               </div>
             </div>
-            <p align="center"><i>Creado por <strong>Dostin Hurtado</strong></i> </p>
+           
       </body>
   </html>
