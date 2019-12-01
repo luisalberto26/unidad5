@@ -82,7 +82,6 @@
                                     <br><br>
                                     <input type="hidden" name="envio">
                                     <p><input type="submit" id="enviar" class="btn btn-success" value="INICIAR SESIÓN" name="btn_index">
-                                     <a class="btn btn btn-danger" href="http://www.dostinhurtado.com" role="button">SALIR</a></p>
                                 </form>
                             </center>
                         </div>
